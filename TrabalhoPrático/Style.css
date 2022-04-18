@@ -1,0 +1,329 @@
+
+/*index css*/
+.containerHeader {
+    width: 80%;
+    margin: 0 auto;
+}
+
+Header {
+    background-color:#16DB65;
+    border-radius: 15px 15px 0px 0px;   
+}
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+nav {
+    float: right;
+    font-family: 'Poppins', sans-serif ;
+    font-size: large;
+    font-weight: 500;
+    opacity: 90%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 27px;
+}
+
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+
+}
+
+nav a:hover {
+    color: rgb(66, 107, 47);
+    opacity: 90%;
+}
+
+nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    background-color: black;
+    opacity: 80%;
+
+    transition: all ease-in-out 250ms;
+
+    position: absolute;
+    top: 0;
+    width: 0%
+}
+
+nav a:hover::before {
+    width: 100%
+}
+
+
+
+body {
+    margin: 0;
+}
+
+.YoutubeLogo {
+    width: 110px;
+    height: 100px;
+}
+
+.GeniusLogo {
+    width: 95px;
+    height: 100px;
+}
+
+.SpotifyLogo {
+    width: 200px;
+    height: 100px;
+}
+
+.Header2 {
+    background-color: white;
+    text-align: center;
+    height: 200px;
+    padding-top: 50px;
+    margin: 0;
+
+    font-family: poppins, sans-serif;
+    font-size: x-large;
+}
+
+.column {   
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 500px;
+    padding: 25px 25px 0px 0px;
+    background-color: rgb(73, 119, 73);
+}
+
+.divLogo {
+    text-align: center;
+    padding-top: 120px;
+    
+}
+
+.containColumn {
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    padding-bottom: 75px;
+    border-radius: 30px;
+}
+
+.containColumn:hover {
+    background-color: rgb(219, 219, 219);
+}
+
+.divText1 {
+    padding-top: 24px;
+    font-family: poppins, sans-serif;
+    font-size:larger;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.divText2 {
+    padding-top: 22px;
+    font-family: poppins, sans-serif;
+    font-size:larger;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.divText3 {
+    padding-top: 24px;
+    font-family: poppins, sans-serif;
+    font-size: larger;
+    font-style: oblique;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.Rodape {
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+}
+
+.RodapeY {
+    width: 100%;
+    position: fixed;
+    float: left;
+    bottom: 0;
+}
+
+.About {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 0px 50px 0px 60px;
+    background-color: rgb(255, 255, 255);
+    opacity: 85%;
+}
+
+.Contact {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 0px 50px 0px 60px;
+    background-color: rgb(255, 255, 255);
+    opacity: 85%;
+}
+
+.Adress {
+    box-sizing: border-box;
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    padding: 0px 50px 0px 60px;
+    background-color: rgb(255, 255, 255);
+    opacity: 85%;
+    bottom: 0px;
+}
+
+.content {
+    font-family: poppins, sans-serif;
+    font-size: small;
+    color: rgb(73, 119, 73);
+}
+
+
+/*Spotify css*/
+.Header3 {
+    background-color:  rgb(182, 248, 182);
+    text-align: center;
+    height: 200px;
+    padding-top: 70px;
+    margin: 0;
+
+    font-family: poppins, sans-serif;
+    font-size: x-large;
+    
+}
+
+.ListaSearch {
+    list-style: none;
+    padding-left: 50px;
+}
+
+#text {
+    padding-left: 50px;
+}
+
+.ListaSearch .btnSearch {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    padding: 0px 10px 0px 10px;
+}
+
+.ListaSearch .btnSearch:hover {
+    background-color: #555555;
+    color: white;
+  }
+
+  #query {
+      width: 20%;
+  }
+
+  .container {
+      height: 900px;
+  }
+
+.btn.dropdown-toggle  {
+    width:150px;
+    text-align:left;
+}
+
+.form-label col-sm-2 {
+    font-style: poppins, sans-serif;
+    font-size: large;
+}
+
+span.caret {
+    position: absolute;
+    left: 90%;
+    top: 45%;
+}
+
+label {
+    padding-top:5px;
+}
+
+.form-label {
+    padding-left:0px !important;
+}
+
+.btn-success {
+    background-color: #3b7d4a!important;
+}
+
+.btn-success:hover {
+    background-color: #4daf64!important;
+}
+
+
+/*Css específico do Youtube*/
+.divYoutube {
+    padding: 30px 0px 0px 200px;
+    height: 500px;
+}
+
+#h2Y {
+    font-family: poppins, sans-serif;
+    font-size: x-large;
+   
+}
+
+#h2R {
+    font-family: poppins, sans-serif;
+    font-size:medium;
+}
+
+#h4 {
+    padding: 100px 0px 50px 200px;
+    color: rgb(115, 185, 115);
+    font-style: poppins, sans-serif;
+    font-size: xx-large;
+    text-transform: uppercase;
+}
+
+#liY{
+    padding-left: 167px;
+}
+
+/*Genius css*/
+
+.Glist {
+    list-style: none;
+    box-sizing: border-box;
+    width: 50%;
+    display: inline;
+    float: left;
+    padding: 0;
+    
+
+}
+
+.subDivG {
+    width: 50%;
+    padding: 50px 0px 0px 150px;
+}
+
+.Phones {
+    width: 50%;
+    padding-right: 50px;
+}

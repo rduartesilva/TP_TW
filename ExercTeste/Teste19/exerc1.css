@@ -1,0 +1,23 @@
+body {
+    color: magenta;
+}
+
+p {
+    color: red;
+}
+
+.content {
+    color: blueviolet;
+}
+
+div p{
+    color: pink;
+}
+
+div p p{
+    color: lime;
+}
+
+.box p{
+    color: maroon;
+}

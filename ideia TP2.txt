@@ -1,0 +1,16 @@
+site de reviews
+
+foto, nome do local, contacto( no caso de ser um restaurante, hotel...), alguma info
+review em estrelas por baixo e zona de comment
+
+User normal
+tem acesso ao site e ás reviews mas não pode realizar nenhuma ação, apenas visualizar
+
+User logado
+tem acesso ao site, pode escrever reviews e pode gostar ou desgostar de outras reviews
+
+Admin
+tem acesso ao site, pode escrever reviews, gostar e desgostar de reviews, remover reviews e até mesmo dar ban ao user caso o coment seja racista ou incite à violencia
+
+Extra:
+Zona de notas onde o user logado pode criar notas para lembrar os dias em que tenciona visitar o local (extra).
